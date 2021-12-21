@@ -1,5 +1,22 @@
 # @backstage/core-plugin-api
 
+## 0.4.0
+
+### Minor Changes
+
+- f6722d2458: - Removed deprecated option `description` from `ApiRefConfig`
+  - Removed descriptions from all plugin API refs
+  - Removed deprecated parameters `path`, `icon`, and `title` in `createRouteRef`
+  - Removed deprecated types `Error` and `ErrorContext` from `ErrorApi`
+- 68f8b10ccd: - Removed deprecation configuration option `theme` from `AppTheme` of the `AppThemeApi`
+  - Removed reference to `theme` in the `app-defaults` default `AppTheme`
+  - Removed logic in `AppThemeProvider` that creates `ThemeProvider` from `appTheme.theme`
+- 6b69b44862: Removed deprecated types `ApiRefType` and `ApiRefsToTypes`
+
+### Patch Changes
+
+- 7927005152: Add `FetchApi` and related `fetchApiRef` which implement fetch, with an added Backstage token header when available.
+
 ## 0.3.1
 
 ### Patch Changes

@@ -1,5 +1,18 @@
 # @backstage/test-utils
 
+## 0.2.0
+
+### Minor Changes
+
+- 771b9c07fe: Removed deprecated `Keyboard` class which has been superseded by `@testing-library/user-event#userEvent`
+- f6722d2458: Removed deprecated `msw` definition which was replaced by calling `setupRequestMockHandlers` directly
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/core-app-api@0.3.0
+  - @backstage/core-plugin-api@0.4.0
+
 ## 0.1.24
 
 ### Patch Changes
